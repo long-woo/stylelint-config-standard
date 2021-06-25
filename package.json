@@ -1,0 +1,31 @@
+{
+  "name": "@longwoo/stylelint-config-standard",
+  "version": "0.0.1",
+  "description": "Stylelint 自定义配置",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/long-woo/stylelint-config-standard.git"
+  },
+  "keywords": [
+    "stylelint",
+    "config",
+    "standard"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "author": "long.woo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/long-woo/stylelint-config-standard/issues"
+  },
+  "homepage": "https://github.com/long-woo/stylelint-config-standard#readme",
+  "peerDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
