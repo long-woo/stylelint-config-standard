@@ -24,8 +24,10 @@
     "url": "https://github.com/long-woo/stylelint-config-standard/issues"
   },
   "homepage": "https://github.com/long-woo/stylelint-config-standard#readme",
-  "peerDependencies": {
-    "stylelint": "^13.13.1",
+  "dependencies": {
     "stylelint-config-standard": "^22.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.13.1"
   }
 }
