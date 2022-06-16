@@ -10,6 +10,7 @@ module.exports = {
     'color-named': 'never',
     'declaration-block-semicolon-newline-after': 'always',
     'selector-pseudo-element-no-unknown': [true, {
+      // Vue 2
       ignorePseudoElements: ['v-deep']
     }],
     'at-rule-no-unknown': [true, {

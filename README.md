@@ -2,4 +2,18 @@
 
 > 扩展 `stylelint-config-standard` 。
 
-Stylelint 自定义配置。
+## 使用
+
+安装依赖：
+
+```sh
+pnpm add -D @longwoo/stylelint-config-standard
+```
+
+打开 `.stylelintrc` 文件，添加 `extends` 配置项。
+
+```json
+{
+  extends: "@longwoo/stylelint-config-standard"
+}
+```
