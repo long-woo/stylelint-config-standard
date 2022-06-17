@@ -1,8 +1,12 @@
 module.exports = {
-  extends: 'stylelint-config-standard',
+  overrides: [{
+    files: ['*.(html|vue)', '**/*.(html|vue)'],
+    customSyntax: require('postcss-html')()
+  }],
+  extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier-scss'],
   rules: {
     indentation: [
-      2,
+      'tab',
       {
         baseIndentLevel: 0
       }
@@ -14,7 +18,7 @@ module.exports = {
       ignorePseudoElements: ['v-deep']
     }],
     'at-rule-no-unknown': [true, {
-      ignoreAtRules: ['mixin', 'include']
+      ignoreAtRules: ['mixin', 'include', 'use']
     }],
     'block-opening-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always'

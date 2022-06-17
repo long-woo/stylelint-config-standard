@@ -2,6 +2,10 @@
 
 > 扩展 `stylelint-config-standard` 。
 
+支持：
+  - Vue 单文件组件
+  - 
+
 ## 使用
 
 安装依赖：
@@ -17,3 +21,5 @@ pnpm add -D @longwoo/stylelint-config-standard
   extends: "@longwoo/stylelint-config-standard"
 }
 ```
+
+
