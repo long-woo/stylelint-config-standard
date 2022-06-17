@@ -1,16 +1,25 @@
+const postcssHTML = require('postcss-html')();
+
 module.exports = {
   overrides: [{
-    files: ['*.(html|vue)', '**/*.(html|vue)'],
-    customSyntax: require('postcss-html')()
+    files: ['*.vue', '**/*.vue'],
+    customSyntax: postcssHTML,
+    rules: {
+      indentation: ['tab', {
+        baseIndentLevel: 0
+      }]
+    }
+  }, {
+    files: ['*.html', '**/*.html'],
+    customSyntax: postcssHTML,
+    rules: {
+      indentation: ['tab', {
+        baseIndentLevel: 3
+      }]
+    }
   }],
   extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier-scss'],
   rules: {
-    indentation: [
-      'tab',
-      {
-        baseIndentLevel: 0
-      }
-    ],
     'color-named': 'never',
     'declaration-block-semicolon-newline-after': 'always',
     'selector-pseudo-element-no-unknown': [true, {
