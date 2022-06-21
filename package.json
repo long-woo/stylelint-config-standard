@@ -1,6 +1,6 @@
 {
   "name": "@longwoo/stylelint-config-standard",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Stylelint 自定义配置",
   "main": "index.js",
   "repository": {
@@ -15,7 +15,11 @@
   "files": [
     "index.js"
   ],
-  "author": "long.woo",
+  "author": {
+    "name": "long.woo",
+    "email": "longwunet@outlook.com",
+    "url": "https://longwoo.me"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/long-woo/stylelint-config-standard/issues"

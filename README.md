@@ -13,20 +13,20 @@
 1.安装依赖：
 
 ```sh
-pnpm add -D stylelint @longwoo/stylelint-config-standard
+pnpm add -D @longwoo/stylelint-config-standard
 
 # or
-npm install -save-dev stylelint @longwoo/stylelint-config-standard
+npm install -save-dev @longwoo/stylelint-config-standard
 
 # or
-yarn add -D stylelint @longwoo/stylelint-config-standard
+yarn add -D @longwoo/stylelint-config-standard
 ```
 
 2.在项目根目录创建 `.stylelintrc` 文件，添加 `extends` 配置项。
 
 ```json
 {
-  extends: "@longwoo/stylelint-config-standard"
+  "extends": "@longwoo/stylelint-config-standard"
 }
 ```
 
