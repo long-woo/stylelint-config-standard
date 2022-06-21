@@ -27,7 +27,7 @@ module.exports = {
       ignorePseudoElements: ['v-deep']
     }],
     'at-rule-no-unknown': [true, {
-      ignoreAtRules: ['mixin', 'include', 'use', 'extend']
+      ignoreAtRules: ['mixin', 'include', 'use', 'forward']
     }],
     'block-opening-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always'

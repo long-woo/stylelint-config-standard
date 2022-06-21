@@ -1,7 +1,7 @@
 {
   "name": "@longwoo/stylelint-config-standard",
-  "version": "1.2.0",
-  "description": "Stylelint 自定义配置",
+  "version": "1.2.1",
+  "description": "一个开箱即用的 Stylelint 配置。",
   "main": "index.js",
   "repository": {
     "type": "git",
