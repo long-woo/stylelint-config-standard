@@ -29,6 +29,10 @@ module.exports = {
     'at-rule-no-unknown': [true, {
       ignoreAtRules: ['mixin', 'include', 'use', 'extend', 'forward']
     }],
+    "selector-pseudo-class-no-unknown": [true, {
+      // :deep(<inner-selector>)，:global(<inner-selector>)，:slotted(<inner-selector>)
+      "ignorePseudoClasses": ["deep", "global", "slotted"]
+    }],
     'block-opening-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always'
   }
