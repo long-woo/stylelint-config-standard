@@ -1,6 +1,6 @@
 {
   "name": "@longwoo/stylelint-config-standard",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "一个开箱即用的 Stylelint 配置。",
   "main": "index.js",
   "repository": {
@@ -25,16 +25,19 @@
     "url": "https://github.com/long-woo/stylelint-config-standard/issues"
   },
   "homepage": "https://github.com/long-woo/stylelint-config-standard#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "peerDependencies": {
     "postcss": "^8.4.14",
     "stylelint": "^14.9.1"
   },
   "devDependencies": {
-    "postcss": "^8.4.14",
-    "stylelint": "^14.9.1"
+    "postcss": "^8.4.19",
+    "stylelint": "^14.14.1"
   },
   "dependencies": {
-    "postcss-html": "^1.4.1",
+    "postcss-html": "^1.5.0",
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard-scss": "^4.0.0"
   }
