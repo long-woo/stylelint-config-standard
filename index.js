@@ -34,6 +34,7 @@ module.exports = {
       "ignorePseudoClasses": ["deep", "global", "slotted"]
     }],
     'block-opening-brace-newline-after': 'always',
-    'block-closing-brace-newline-before': 'always'
+    'block-closing-brace-newline-before': 'always',
+    'color-function-notation': 'legacy'
   }
 }

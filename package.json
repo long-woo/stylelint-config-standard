@@ -1,6 +1,6 @@
 {
-  "name": "@longwoo/stylelint-config-standard",
-  "version": "1.4.2",
+  "name": "@loongwoo/stylelint-config-standard",
+  "version": "1.5.0",
   "description": "一个开箱即用的 Stylelint 配置。",
   "main": "index.js",
   "repository": {
@@ -16,7 +16,7 @@
     "index.js"
   ],
   "author": {
-    "name": "long.woo",
+    "name": "loong.woo",
     "email": "longwunet@outlook.com",
     "url": "https://longwoo.me"
   },
