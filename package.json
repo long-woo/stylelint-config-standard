@@ -1,6 +1,6 @@
 {
   "name": "@loongwoo/stylelint-config-standard",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "一个开箱即用的 Stylelint 配置。",
   "main": "index.js",
   "repository": {
